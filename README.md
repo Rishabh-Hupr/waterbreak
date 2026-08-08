@@ -169,3 +169,8 @@ relaunching after a reboot or logout.
 Searched for existing work before writing this — no equivalent turned up. The
 nearest things were unrelated: device screensavers, an Android timer overlay, and
 a personal Pomodoro script.
+
+## Licence
+
+**MIT** — see `LICENSE`. There are no third-party assets to account for: the
+artwork is drawn procedurally in code and the font is a hand-plotted bitmap.
