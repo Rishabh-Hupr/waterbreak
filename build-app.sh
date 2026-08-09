@@ -60,3 +60,13 @@ PLIST
 codesign --force --deep --sign - "$APP" >/dev/null 2>&1 || true
 
 echo "Built $APP"
+echo
+echo "Now running ./build-saver.sh to generate the pixel art screensaver"
+
+./build-saver.sh
+
+echo "Installing screen-saver, by calling ./install-saver.sh"
+
+./install-saver.sh
+
+echo "Done"
